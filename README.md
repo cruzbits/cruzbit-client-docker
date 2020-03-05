@@ -63,6 +63,7 @@ Your system must have [Docker](http://docker.io) installed
 `docker logs cruzbit-client-docker`
 ### Update the cruzbit-client-docker container image
 `docker pull cruzbit/cruzbit-client-docker`
+
 `docker restart cruzbit-client-docker`
 
 ## License
