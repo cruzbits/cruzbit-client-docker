@@ -19,7 +19,7 @@
 ## Introduction
 Cruzbit is a simple decentralized peer-to-peer ledger implementation https://cruzb.it
 
-This is a [dockerized](http://docker.io) installation of the [Cruzbit client](github.com/cruzbit/cruzbit/client)
+This is a [dockerized](http://docker.io) installation of the [Cruzbit client](https://github.com/cruzbit/cruzbit/tree/master/client)
 
 It is suitable for use as a local peer (default configuration), or for mining
 
@@ -62,7 +62,8 @@ Your system must have [Docker](http://docker.io) installed
 ### Check the cruzbit-client-docker container logs
 `docker logs cruzbit-client-docker`
 ### Update the cruzbit-client-docker container image
-`docker cruzbit/cruzbit-client-docker`
+`docker pull cruzbit/cruzbit-client-docker`
+`docker restart cruzbit-client-docker`
 
 ## License
 cruzbit-client-docker is released under the terms of the MIT license. See LICENSE for more information or see https://opensource.org/licenses/MIT.
